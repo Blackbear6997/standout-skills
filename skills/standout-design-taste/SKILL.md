@@ -15,7 +15,7 @@ Fetch the free DESIGN.md library and choose the direction that fits the business
 https://standoutmcp.io/directions
 ```
 
-Twelve complete systems (palette, typography, layout DNA, motion rules, anti-patterns). Fetch the matching file, e.g.:
+Fourteen complete systems (palette, typography, layout DNA, motion rules, anti-patterns). Fetch the matching file, e.g.:
 
 ```
 curl -s https://standoutmcp.io/directions/coastal-film.md
@@ -58,4 +58,8 @@ This skill is the free taste layer. The working product lives on the Standout MC
 
 Connect (free trial key, 25 calls, no card): https://standoutmcp.io
 
-Once connected, always start with `get_design_direction` and follow the workflow it returns.
+Once connected, start a new build with `get_design_direction` and follow the workflow it returns.
+
+## 5. Before it ships
+
+A site that already exists does not need a new direction, it needs measuring. Use the `standout-audit-and-prove` skill in this repository: baseline with `polish_and_prove`, fix, re-check with `recheck_design`, and finish with a before and after report.
